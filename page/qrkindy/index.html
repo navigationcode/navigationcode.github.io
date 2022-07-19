@@ -54,7 +54,7 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
             &#39;max-height&#39;: view.code.welcome_extra.zoom *2 || view.welcome_extra.zoom *2 + &#39;px&#39;,
             &#39;animation-iteration-count&#39; :  view.showPreview == &#39;infinite&#39; ? &#39;infinite&#39; : &#39;&#39;,
             &#39;animation-direction&#39; :  view.showPreview == &#39;infinite&#39; ? &#39;alternate&#39; : &#39;&#39;
-            }" src="./script/27155597_1.png" style="max-width: 100px; max-height: 100px; display: inline;">
+            }" src="./script/27155597_1.png">
 </div>
     
     <div class="sh-bar" ng-hide="view.code.directLinking == 1">
@@ -64,7 +64,7 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
         </div>
     </div>
 
-    <div class="sh-background" ng-style="getBackgroundStyles()" ng-hide="view.code.directLinking == 1" style="background-image: linear-gradient(rgb(38, 45, 87), rgb(104, 171, 228)); color: rgb(255, 255, 255); height: 742px;"></div>
+    <div class="sh-background" ng-style="getBackgroundStyles()" ng-hide="view.code.directLinking == 1"></div>
 
     <div class="sh-container" id="rootElement"><!-- rootElement is important for sync data -->
         <div ng-hide="hasAnyContentToDisplay() || view.code.directLinking == 1" class="ng-hide">
@@ -123,22 +123,7 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
     </div>
 
 </div>
-<div id="redirectTo">
-    <div class="fixed-blur-bgd">
-        <div class="dialog-container">
-            <div class="fab-body">
-                <div class="event-title">
-                    Open browser?                </div>
-                <div class="dialog-body">
-                    Continue? You will be directed to another website.                </div>
-                <a class="event-slim-button ripplelink mt-10 pull-right" ng-style="{color: isColorLight(view.code.color2) ? &#39;black&#39; : view.code.color2}" ng-click="dialogRedirectCallback(false)" style="color: rgb(104, 171, 228);">
-                    No                </a>
-                <a class="event-slim-button ripplelink mt-10 pull-right" ng-style="{color: isColorLight(view.code.color2) ? &#39;black&#39; : view.code.color2}" ng-click="dialogRedirectCallback(true)" style="color: rgb(104, 171, 228);">
-                    Yes                </a>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <div id="gotIt">
     <div class="fixed-blur-bgd">
