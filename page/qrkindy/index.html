@@ -79,9 +79,11 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
         </div>
         <div ng-show="hasAnyContentToDisplay() &amp;&amp; view.code.directLinking != 1">
             <div class="sh-page" style="height: auto;">
-	<a href="https://kindycity.edu.vn/">
-		<img class="sh-avatar" ng-src="./script/27155524_1.png" alt="" ng-show="view.code.avatar" src="./script/27155524_1.png">
-	</a>
+			<div class="zoomlogo">
+				<a href="https://kindycity.edu.vn/">
+					<img class="sh-avatar" ng-src="./script/27155524_1.png" alt="" ng-show="view.code.avatar" src="./script/27155524_1.png">
+				</a>
+			</div>
 
     <div class="sh-page__title ng-binding">KINDYCITY</div>
 
@@ -100,18 +102,18 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
     </div>
 
     <div ng-show="view.code.button.label">
-        <a class="sh-button ng-binding" ng-style="{borderColor: getBorderColor1()}" href="https://drive.google.com/file/d/1rD7HXzskf41-dKjqpawTEqFxVAu_lHsM/view" target="_blank" ng-click="callAction($event, &#39;button&#39;)" style="border-color: rgba(255, 255, 255, 0.7);">
+        <a class="sh-button ng-binding rainbow rainbow-1" ng-style="{borderColor: getBorderColor1()}" href="https://drive.google.com/file/d/1rD7HXzskf41-dKjqpawTEqFxVAu_lHsM/view" target="_blank" ng-click="callAction($event, &#39;button&#39;)" style="border-color: rgba(255, 255, 255, 0.7);">
             Guide
         </a>
     </div>
 
-    <div ng-show="view.code.app_store">
+    <div ng-show="view.code.app_store" class="zoom">
         <a class="sh-store-link" href="https://apps.apple.com/vn/app/kindycity/id1585507488?l=vi&amp;fbclid=IwAR2tWjUeplo9b6dEpEfKkSYN7qXxPoVkX98mftRiyKHkPeOAVaXkdLho5aU" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
             <img class="sh-store-link__image" src="./script/apple-en.png" alt="">
         </a>
     </div>
 
-    <div ng-show="view.code.play_store">
+    <div ng-show="view.code.play_store" class="zoom">
         <a class="sh-store-link" href="https://play.google.com/store/apps/details?id=com.kindycity.student_report" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
             <img class="sh-store-link__image" src="./script/google-en.png" alt="">
         </a>
