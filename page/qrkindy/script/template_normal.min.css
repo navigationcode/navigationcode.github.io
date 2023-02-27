@@ -74,7 +74,7 @@
 }
 
 .zoomlogo {
-  transition: transform .2s; /* Animation */
+  transition: transform 2s; /* Animation */
 }
 
 .zoomlogo:hover {
