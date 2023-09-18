@@ -55,7 +55,7 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
             &#39;animation-iteration-count&#39; :  view.showPreview == &#39;infinite&#39; ? &#39;infinite&#39; : &#39;&#39;,
             &#39;animation-direction&#39; :  view.showPreview == &#39;infinite&#39; ? &#39;alternate&#39; : &#39;&#39;
             }" src="./script/27155597_1.png">
-</div>
+	</div>
     
     <div class="sh-bar" ng-hide="view.code.directLinking == 1">
         <div class="sh-container" style="position: relative;">
@@ -67,16 +67,6 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
     <div class="sh-background" ng-style="getBackgroundStyles()" ng-hide="view.code.directLinking == 1"></div>
 
     <div class="sh-container" id="rootElement"><!-- rootElement is important for sync data -->
-        <div ng-hide="hasAnyContentToDisplay() || view.code.directLinking == 1" class="ng-hide">
-            <div class="vcard-row text-center mt-20">
-                <h4>Waiting for you to enter data</h4>
-            </div>
-            <div class="sk-three-bounce">
-                <div class="sk-child sk-bounce1"></div>
-                <div class="sk-child sk-bounce2"></div>
-                <div class="sk-child sk-bounce3"></div>
-            </div>
-        </div>
         <div ng-show="hasAnyContentToDisplay() &amp;&amp; view.code.directLinking != 1">
             <div class="sh-page" style="height: auto;">
 			<div class="zoomlogo">
@@ -706,6 +696,4 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
 
 /*]]>*/
 </script>
-
-
 </body></html>
