@@ -85,89 +85,48 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
 				</a>
 			</div>
 
-    <div class="sh-page__title ng-binding">KINDYCITY</div>
+			<div class="sh-page__title ng-binding">KINDYCITY</div>
 
-    <div class="sh-page__description" ng-show="view.code.description.length &lt;= 70"><!--
-        --><span class="sh-page__description-text ng-binding">INTERNATIONAL PRESCHOOL</span>
-    </div>
+			<div class="sh-page__description" ng-show="view.code.description.length &lt;= 70"><!--
+				--><span class="sh-page__description-text ng-binding">INTERNATIONAL PRESCHOOL</span>
+			</div>
 
-    <div class="sh-page__description ng-hide" ng-show="view.code.description.length &gt; 70 &amp;&amp; showDescription"><!--
-        --><span class="sh-page__description-text ng-binding">INTERNATIONAL PRESCHOOL</span>&nbsp;<!--
-        --><span class="sh-page__less" ng-click="showDescription = false">Less</span>
-    </div>
+			<div class="sh-page__description ng-hide" ng-show="view.code.description.length &gt; 70 &amp;&amp; showDescription"><!--
+				--><span class="sh-page__description-text ng-binding">INTERNATIONAL PRESCHOOL</span>&nbsp;<!--
+				--><span class="sh-page__less" ng-click="showDescription = false">Less</span>
+			</div>
 
-    <div class="sh-page__description ng-hide" ng-show="view.code.description.length &gt; 70 &amp;&amp; !showDescription"><!--
-        --><span class="sh-page__description-text ng-binding">INTERNATIONAL PRESCHOOL…</span>&nbsp;<!--
-        --><span class="sh-page__more" ng-click="showDescription = true">More</span>
-    </div>
+			<div class="sh-page__description ng-hide" ng-show="view.code.description.length &gt; 70 &amp;&amp; !showDescription"><!--
+				--><span class="sh-page__description-text ng-binding">INTERNATIONAL PRESCHOOL…</span>&nbsp;<!--
+				--><span class="sh-page__more" ng-click="showDescription = true">More</span>
+			</div>
 
-    <div ng-show="view.code.button.label">
-        <a class="sh-button ng-binding rainbow rainbow-1" ng-style="{borderColor: getBorderColor1()}" href="https://drive.google.com/file/d/1rD7HXzskf41-dKjqpawTEqFxVAu_lHsM/view" target="_blank" ng-click="callAction($event, &#39;button&#39;)" style="border-color: rgba(255, 255, 255, 0.7);">
-            Guide
-        </a>
-    </div>
+			<div ng-show="view.code.button.label">
+				<a class="sh-button ng-binding rainbow rainbow-1" ng-style="{borderColor: getBorderColor1()}" href="https://drive.google.com/file/d/1rD7HXzskf41-dKjqpawTEqFxVAu_lHsM/view" target="_blank" ng-click="callAction($event, &#39;button&#39;)" style="border-color: rgba(255, 255, 255, 0.7);">
+					Guide
+				</a>
+			</div>
 
-    <div ng-show="view.code.app_store" class="zoom">
-        <a class="sh-store-link" href="https://apps.apple.com/vn/app/kindycity/id1585507488?l=vi&amp;fbclid=IwAR2tWjUeplo9b6dEpEfKkSYN7qXxPoVkX98mftRiyKHkPeOAVaXkdLho5aU" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
-            <img class="sh-store-link__image" src="./script/apple-en.png" alt="">
-        </a>
-    </div>
+			<div ng-show="view.code.app_store" class="zoom">
+				<a class="sh-store-link" href="https://apps.apple.com/vn/app/kindycity/id1585507488?l=vi&amp;fbclid=IwAR2tWjUeplo9b6dEpEfKkSYN7qXxPoVkX98mftRiyKHkPeOAVaXkdLho5aU" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
+					<img class="sh-store-link__image" src="./script/apple-en.png" alt="">
+				</a>
+			</div>
 
-    <div ng-show="view.code.play_store" class="zoom">
-        <a class="sh-store-link" href="https://play.google.com/store/apps/details?id=com.kindycity.student_report" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
-            <img class="sh-store-link__image" src="./script/google-en.png" alt="">
-        </a>
-    </div>
+			<div ng-show="view.code.play_store" class="zoom">
+				<a class="sh-store-link" href="https://play.google.com/store/apps/details?id=com.kindycity.student_report" target="_blank" ng-click="callAction($event, &#39;appStore&#39;)">
+					<img class="sh-store-link__image" src="./script/google-en.png" alt="">
+				</a>
+			</div>
 
-    <div ng-show="view.code.website" class="sh-page__website-container">
-        <a class="sh-page__website ng-binding" href="https://studentreport.kindycity.edu.vn/Account/Login" target="_blank" ng-style="{color: getTextColor2()}" style="color: rgb(255, 255, 255);">
-            studentreport.kindycity.edu.vn
-        </a>
-    </div>
+			<div ng-show="view.code.website" class="sh-page__website-container">
+				<a class="sh-page__website ng-binding" href="https://studentreport.kindycity.edu.vn/Account/Login" target="_blank" ng-style="{color: getTextColor2()}" style="color: rgb(255, 255, 255);">
+					studentreport.kindycity.edu.vn
+				</a>
+			</div>
 
-</div>
-
-
-<div id="gotIt">
-    <div class="fixed-blur-bgd">
-        <div class="dialog-container">
-            <div class="fab-body">
-                <div class="event-gotIt-button">
-                </div>
-                <div class="dialog-body pull-left ng-binding">
-                    
-                </div>
-                <a class="text-regular-blue mt-20" ng-click="closeDialog()">
-                    Got it                </a>
-            </div>
+		</div>
         </div>
-    </div>
-</div>
-
-<div id="redirectToMaps">
-    <div class="fixed-blur-bgd">
-        <div class="dialog-container">
-            <div class="fab-body">
-                <div class="event-title">
-                    Use Google Maps                </div>
-                <div class="dialog-body">
-                    Directions will open in Google Maps.                    Do you want to continue?                </div>
-                <a class="event-slim-button ripplelink mt-10 pull-right" ng-style="{color: isColorLight(view.code.color2) ? &#39;black&#39; : view.code.color2}" ng-click="dialogRedirectCallback(false)" style="color: rgb(104, 171, 228);">
-                    No                </a>
-                <a class="event-slim-button ripplelink mt-10 pull-right" ng-style="{color: isColorLight(view.code.color2) ? &#39;black&#39; : view.code.color2}" ng-click="dialogRedirectCallback(true, &#39;https://maps.google.com/maps?saddr=&#39;+getMapAddress()+&#39;&amp;daddr=&#39;)" style="color: rgb(104, 171, 228);">
-                    Yes                </a>
-            </div>
-        </div>
-    </div>
-</div>
-        </div>
-
-        <div class="sh-cody ng-hide" ng-show="view.code.directLinking == 1">
-            <div class="sh-cody__message">
-                Some QR Codes types will show a live preview here but not this one. View and test your QR Code in the next step!            </div>
-            <img class="sh-cody__image" src="./script/CodyE_PointingLeft.svg">
-        </div>
-
     </div>
 
 <script type="text/javascript" src="./script/jquery.min.js"></script>
