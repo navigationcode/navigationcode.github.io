@@ -1,0 +1,110 @@
+body {
+    background-color: #eee
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card1 {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #212529;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 5
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dee2e6;
+    clip-path: circle(120px at 50% 50%);
+    transition: 0.9s;
+    z-index: 10
+}
+
+.card1:hover .circle::before {
+    clip-path: circle(400px at 50% 50%)
+}
+
+.card1 img {
+    z-index: 10;
+    position: absolute;
+    transition: 0.5s;
+    pointer-event: none
+}
+
+.card1:hover img {
+    height: 250px;
+    width: 250px;
+    top: -20%;
+    right: -20%
+}
+
+.card1 .content {
+    position: absolute;
+    opacity: 0;
+    color: #000000;
+    top: 40px;
+    width: 200px;
+    left: 20px;
+    z-index: 20;
+    transition: 0.4s
+}
+
+.content p {
+    font-size: 13px
+}
+
+.content button {
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: #0000ffb8;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px
+}
+
+.content button:hover {
+    background-color: blue
+}
+
+.card1:hover .content {
+    opacity: 1
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
