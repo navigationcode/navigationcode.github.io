@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Health Communication | TRƯỜNG MẦM NON QUỐC TẾ KINDYCITY</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="./image/png/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./image/png/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./image/png/favicon-16x16.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/style.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1 style="color: red;">TRUYỀN THÔNG GD & SK</h1>
+  <p>TRƯỜNG MẦM NON THÀNH PHỐ TUỔI THƠ</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>NHỮNG NGUYÊN TẮC AN TOÀN KHI BƠI CHO TRẺ</h5>
+					<p>Hằng năm, khi mùa hè đến cũng là thời điểm xảy ra nhiều vụ đuối nước thương tâm...</p>
+					<input type="button" class="btn btn-info" value="XEM TIẾP" onclick=" relocate_swimming()">
+				</div>
+			<img width="200" src="image/swimming.png">
+		</div>
+    </div>
+    <div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>THÔNG TIN AN TOÀN THỰC PHẨM VÀ BIỆN PHÁP</h5>
+					<p>Có nhiều loại thức ăn có chứa sẳn chất độc, nếu không biết khử độc hoặc...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_ATTP()">
+					<input type="button" class="btn btn-info" value="BIỆN PHÁP" onclick=" relocate_ATTPBP()">
+				</div>
+			<img width="200" src="image/attp.png">
+		</div>
+    </div>
+    <div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>HẬU QUẢ VÀ PHÒNG CHỐNG BẠO LỰC HỌC ĐƯỜNG</h5>
+					<p>Tình trạng bạo lực học đường hiện nay có chiều hướng gia tăng và diễn biến...</p>
+					<input type="button" class="btn btn-info" value="XEM TIẾP" onclick=" relocate_BLHD()">
+				</div>
+			<img width="200" src="image/blhd.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>BỆNH BẠCH HẦU</h5>
+					<p>Bệnh bạch hầu (diphtheria) là bệnh nhiễm khuẩn cấp tính có giả mạc ở tuyến...</p>
+					<input type="button" class="btn btn-info" value="XEM TIẾP" onclick=" relocate_BBH()">
+				</div>
+			<img width="200" src="image/bbh.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>CẬN THỊ VÀ CÁCH PHÒNG CHỐNG</h5>
+					<p>Trong xã hội hiện đại, con người ngày càng chịu nhiều sức ép, cả ngày nhìn...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_CT()">
+					<input type="button" class="btn btn-info" value="BIỆN PHÁP" onclick=" relocate_CPCCT()">
+				</div>
+			<img width="200" src="image/eyekids.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>CHĂM SÓC RĂNG MIỆNG</h5>
+					<p>Theo kết quả điều tra về răng miệng gần đây cho thấy trên toàn quốc có trên 90%...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_RM()">
+				</div>
+			<img width="200" src="image/tooth.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>CONG VẸO CỘT SỐNG & CÁCH PHÒNG NGỪA</h5>
+					<p>Cong vẹo cột sống ngày càng được xem là một bệnh phổ biến trong độ tuổi học sinh...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_CVCS()">
+					<input type="button" class="btn btn-info" value="BIỆN PHÁP" onclick=" relocate_PNCVCS()">
+				</div>
+			<img width="200" src="image/cvcs.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>CÚM A H5N1 & CÁCH PHÒNG NGỪA</h5>
+					<p>Cong vẹo cột sống ngày càng được xem là một bệnh phổ biến trong độ tuổi học sinh...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_H5N1()">
+					<input type="button" class="btn btn-info" value="BIỆN PHÁP" onclick=" relocate_PNH5N1()">
+				</div>
+			<img width="200" src="image/h5n1.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>ĐAU MẮT ĐỎ & CÁCH PHÒNG NGỪA</h5>
+					<p>Đau mắt đỏ là tình trạng nhiễm trùng mắt, thường do vi khuẩn hoặc vi rút gây ra...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_DMD()">
+					<input type="button" class="btn btn-info" value="BIỆN PHÁP" onclick=" relocate_PNDMD()">
+				</div>
+			<img width="200" src="image/dmd.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>BỆNH ĐẬU MÙA KHỈ & CÁCH PHÒNG NGỪA</h5>
+					<p>Vừa qua, Trung tâm Kiểm soát bệnh tật Thành phố nhận được thông tin về...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_DMK()">
+					<input type="button" class="btn btn-info" value="BIỆN PHÁP" onclick=" relocate_PNDMK()">
+				</div>
+			<img width="200" src="image/dmk.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+				<div class="content">
+					<h5>DINH DƯỠNG Ở TRẺ EM</h5>
+					<p>Chế độ dinh dưỡng cho trẻ có vai trò rất quan trọng trong quá trình phát triển của cơ thể...</p>
+					<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_DDTE()">
+				</div>
+			<img width="200" src="image/ddte.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">
+				<h5>BỆNH MARBURG & CÁCH PHÒNG NGỪA</h5>
+				<p>Virus Marburg (Marburg Virus Disease – MVD) là một virus RNA thuộc họ Filovirus, cùng họ với...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_MAR()">
+				<input type="button" class="btn btn-info" value="BIỆN PHÁP" onclick=" relocate_PNMAR()">
+			</div>
+		<img width="200" src="image/mar.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">
+				<h5>BỆNH SỞI</h5>
+				<p>Sởi là một bệnh truyền nhiễm cấp tính với các triệu chứng sốt, phát ban, chảy nước mũi, ho, mắt đỏ...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_SOI()">
+			</div>
+		<img width="200" src="image/soi.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">
+				<h5>SỐT XUẤT HUYẾT</h5>
+				<p>Sốt xuất huyết dengue (dengue hemorrhagic fever, DHF hay Sốt dengue (dengue fever, DF, đọc là đăng-gi))...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_SXH()">
+			</div>
+		<img width="200" src="image/sxh.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">
+				<h5>TÁC HẠI THUỐC LÁ & RƯỢU BIA</h5>
+				<p>Hút thuốc lá có thể gây ung thư với mọi cơ quan trong cơ thể của bạn: phổi, bàng quang, máu, cổ tử cung...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_TL()">
+			</div>
+		<img width="200" src="image/tl.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">
+				<h5>PHÒNG TRÁNH TAI NẠN THƯƠNG TÍCH TRONG TRƯỜNG HỌC</h5>
+				<p>Tai nạn thương tích (TNTT) rất dễ xảy ra vì ở lứa tuổi các em thường hiếu động...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_TNTT()">
+			</div>
+		<img width="200" src="image/tntt.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">
+				<h5>TAY CHÂN MIỆNG</h5>
+				<p>Tay chân miệng là một bệnh truyền nhiễm thường gặp ở trẻ nhỏ, nhất là các bé dưới 5 tuổi...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_TCM()">
+			</div>
+		<img width="200" src="image/tcm.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">	
+				<h5>BỆNH THỦY ĐẬU</h5>
+				<p>Bệnh thủy đậu là bệnh lành tính, không có triệu chứng nặng nề ngoài những mụn nước nhưng rất...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_TD()">
+			</div>
+		<img width="200" src="image/td.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">	
+				<h5>BỆNH TIÊU CHẢY CẤP</h5>
+				<p>Tiêu chảy cấp ở trẻ em là bệnh lý thường gặp, gây ra bởi nhiều nguyên nhân như tác dụng phụ với thuốc...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_TCC()">
+			</div>
+		<img width="200" src="image/tcc.png">
+		</div>
+    </div>
+	<div class="col-sm-4">
+		<div class="card1">
+			<div class="circle"></div>
+			<div class="content">	
+				<h5>BỆNH VIÊM NÃO MÔ CẦU</h5>
+				<p>Bệnh viêm màng não do não mô cầu là một bệnh nhiễm khuẩn cấp tính xảy ra đột ngột với các triệu chứng sốt...</p>
+				<input type="button" class="btn btn-info" value="TIN TỨC" onclick=" relocate_VNMC()">
+			</div>
+		<img width="200" src="image/vnmc.png">
+		</div>
+    </div>
+
+  </div>
+</div>
+</body>
+<footer class="bg-light text-center text-lg-start">
+	<!-- Copyright -->
+	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+	  © 2023 Copyright:
+	  <a class="text-dark" href="https://navigationcode.github.io/">KINDYCITY INTERNATIONAL PRESCHOOL</a>
+	</div>
+	<!-- Copyright -->
+  </footer>
+</html>
+<script>
+	<!--swimming-->
+	function relocate_swimming()
+	{
+		 location.href = "https://drive.google.com/file/d/123MmITmwsUVDn0Udeef7AF3LdX4O2Cdi/view?usp=sharing";
+	} 
+	<!--an toan thuc pham-->
+	function relocate_ATTP()
+	{
+		 location.href = "https://drive.google.com/file/d/123H53Z2_8_fi0Iz1cgFbI3F3YL30Ww7R/view?usp=sharing";
+	} 
+	function relocate_ATTPBP()
+	{
+		 location.href = "https://drive.google.com/file/d/125o3UzJV8xpietk8E9aA8PQCETKDI1Lu/view?usp=sharing";
+	} 
+	<!--bao luc hoc duong-->
+	function relocate_BLHD()
+	{
+		 location.href = "https://drive.google.com/file/d/128FbW96nLLz19ajktsYctQCJyCx8HnTX/view?usp=sharing";
+	} 
+	<!--benh bach hau-->
+	function relocate_BBH()
+	{
+		 location.href = "https://drive.google.com/file/d/1zXK1ZeyqhfIIlJrKGGqvcrsGWkGPNl27/view?usp=sharing";
+	} 
+	<!--can thi-->
+	function relocate_CT()
+	{
+		 location.href = "https://drive.google.com/file/d/12CDyOtxL01Bur8jHFItQVuwozSQodYTW/view?usp=sharing";
+	} 
+	function relocate_CPCCT()
+	{
+		 location.href = "https://drive.google.com/file/d/12NBu-SmX_OxDXQUshS6c4ARXOhTyoMI_/view?usp=sharing";
+	} 
+	<!--rang mieng-->
+	function relocate_RM()
+	{
+		 location.href = "https://drive.google.com/file/d/12OdKub28xmH3Vo-fjtqyd9doN9_Oowzp/view?usp=sharing";
+	} 
+	<!--cong veo cot song-->
+	function relocate_CVCS()
+	{
+		 location.href = "https://drive.google.com/file/d/1dpNfOi5nePPUs8BWmXCV9375BrrmczzM/view?usp=sharing";
+	} 
+	function relocate_PNCVCS()
+	{
+		 location.href = "https://drive.google.com/file/d/1dqQhLxVS5vdRiIrLVsO1JMZIjcwyipCq/view?usp=sharing";
+	} 
+	<!--cum AH5N1-->
+	function relocate_H5N1()
+	{
+		 location.href = "https://drive.google.com/file/d/1dpNfOi5nePPUs8BWmXCV9375BrrmczzM/view?usp=sharing";
+	} 
+	function relocate_PNH5N1()
+	{
+		 location.href = "https://drive.google.com/file/d/1dtqHLCL808wcyjAuZtdlx_mXde7u3ZGI/view?usp=sharing";
+	} 
+	<!--dau mat đỏ-->
+	function relocate_DMD()
+	{
+		 location.href = "https://drive.google.com/file/d/1dwXhcwNl-VtQvjMJHOhE3FtNFb05A22I/view?usp=sharing";
+	} 
+	function relocate_PNDMD()
+	{
+		 location.href = "https://drive.google.com/file/d/118z3nHDZYdeTSZErQ1oPKv7ivEBh-htq/view?usp=sharing";
+	} 
+	<!--dau mua khi-->
+	function relocate_DMK()
+	{
+		 location.href = "https://drive.google.com/file/d/1e0LIlROLcve_95qEPM-Omfij3Vf4PfHQ/view?usp=sharing";
+	} 
+	function relocate_PNDMK()
+	{
+		 location.href = "https://drive.google.com/file/d/1e2GWw6uVmySUn8vtrq2laAUGDLGYey76/view?usp=sharing";
+	} 
+		<!--dinh duong tre em-->
+	function relocate_DMK()
+	{
+		 location.href = "https://drive.google.com/file/d/1e3Gfne73yFPQSP3q4bBT82f8Oi9G6kVN/view?usp=sharing";
+	} 
+	<!--MARBURG-->
+	function relocate_DMK()
+	{
+		 location.href = "https://drive.google.com/file/d/1-SGWXh-njT2q1yYzY1-ALiqx17lqo5ox/view?usp=sharing";
+	} 
+	function relocate_PNDMK()
+	{
+		 location.href = "https://drive.google.com/file/d/1-BRin2oGf3nIFSeUF1aht_KEQ5R-KoM0/view?usp=sharing";
+	} 
+	<!--SỞI-->
+	function relocate_DMK()
+	{
+		 location.href = "https://drive.google.com/file/d/1e84-Q5o_q6aa2c-3BTXasUrfPcUTy450/view?usp=sharing";
+	} 
+	<!--SỐT XUẤT HUYẾT-->
+	function relocate_SXH()
+	{
+		 location.href = "https://drive.google.com/drive/folders/1y9ESLa11mRf_kKqMyp43hc_czEhffV7e?usp=sharing";
+	} 
+	<!--THUỐC LÁ-->
+	function relocate_TL()
+	{
+		 location.href = "https://drive.google.com/drive/folders/1z8GlCdk2cjrsbanjsRNIO85UDFSicGKE?usp=sharing";
+	} 
+	<!--TAI NẠN THƯƠNG TÍCH-->
+	function relocate_TNTT()
+	{
+		 location.href = "https://drive.google.com/drive/folders/1y3mbir0UbQHNbhnUwocp_i_BezfyuJGB?usp=sharing";
+	} 
+	<!--TAY CHÂN MIỆNG-->
+	function relocate_TCM()
+	{
+		 location.href = "https://drive.google.com/drive/folders/1xuryJOgb69giNZ8kP4SFKubjfSFTYvq-?usp=sharing";
+	} 
+	<!--THỦY ĐẬU-->
+	function relocate_TD()
+	{
+		 location.href = "https://drive.google.com/file/d/1e8vfCwly1VyxVBYzoWn276PMgmHUC2Ex/view?usp=sharing";
+	} 
+	<!--TIÊU CHẢY CẤP-->
+	function relocate_TCC()
+	{
+		 location.href = "https://drive.google.com/file/d/1eHXe7PICm53b6ZkUNBUnuHKZ4QcdNjav/view?usp=sharing";
+	} 
+	<!--VIÊM NÃO MÔ CẦU-->
+	function relocate_VNMC()
+	{
+		 location.href = "https://drive.google.com/file/d/1eK7xcSAT-hIJ8_A-gcsLAwkQf1fTxlgX/view?usp=sharing";
+	} 
+	</script>

@@ -1,12 +1,19 @@
 body {
-    background-color: #eee
+    background-color: #eee;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h5{
+    font-weight: bold;
 }
 
 .container {
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .card1 {
@@ -60,7 +67,7 @@ body {
     height: 250px;
     width: 250px;
     top: -20%;
-    right: -20%
+    right: -10%
 }
 
 .card1 .content {
@@ -107,4 +114,10 @@ body {
 
 .zoom:hover {
   transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.btn-info{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
 }
