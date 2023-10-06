@@ -41,6 +41,70 @@ YII_CSRF_TOKEN='7f9d3f0b351e0d3e8c71f6bc5fcb877806b9e3a7';
     <meta itemprop="name" content="KINDYCITY">
     <meta itemprop="description" content="">
     <meta itemprop="image" content="./script/27155524_1.png">
+	
+	<!--Block Coppy-->
+	<style>
+		body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+		}
+		</style><script type=”text/JavaScript”>
+		function killCopy(e){
+		return false
+		}
+		function reEnable(){
+		return true
+		}
+		document.onselectstart=new Function (“return false”)
+		if (window.sidebar){
+		document.onmousedown=killCopy
+		document.onclick=reEnable
+		}
+	</script>
+	<script language="JavaScript">
+    window.onload = function() {
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+        document.addEventListener("keydown", function(e) {
+            //document.onkeydown = function(e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+                disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+                disabledEvent(e);
+            }
+        }, false);
+ 
+        function disabledEvent(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            } else if (window.event) {
+                window.event.cancelBubble = true;
+            }
+            e.preventDefault();
+            return false;
+        }
+    };
+</script>
 </head>
 <body ng-app="app" id="dvideo-body" ng-controller="ComplexController" class="sh-body ng-scope" ng-style="getBodyStyles()" style="color: rgb(255, 255, 255);">
 
