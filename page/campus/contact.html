@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Special School | Contact</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css"><![endif]-->
+</head>
+<body>
+<div id="header">
+  <div> <a href="index.html"><img src="images/logo.gif" alt=""></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li class="current"><a href="contact.html">Contact us</a></li>
+    </ul>
+  </div>
+</div>
+<div class="content">
+  <div>
+    <div> <img src="images/calling.jpg" alt=""> </div>
+    <div>
+      <div id="sidebar">
+        <h3>Our Education</h3>
+        <ul>
+          <li id="vision"> <span>Our Vision</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
+          </li>
+          <li id="mission"> <span>Our Mission</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
+          </li>
+          <li id="wecare"> <span>We care</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="contact">
+        <h4 class="first">Customer Service</h4>
+        <p>E-mail: <a href="#">name@domainname.com</a></p>
+        <p>Call or e-mail us for help with any aspect of your purchase, online or offline.</p>
+        <b>Call toll-free: 877 000 0000<br>
+        Call toll-free: 866 000 0000<br>
+        Toll-free fax: 877 000 0000</b>
+        <h4>Mailing Addresses</h4>
+        <p>Petshop</p>
+        <p>250 Lorem ipsum Street</p>
+        <p>4th Floor</p>
+        <p>Jaofanr, Caknan 109935</p>
+        <p>Kiangab</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div>
+    <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
+    <ul>
+      <li> <a href="#"><img src="images/playing-in-grass.gif" alt=""></a>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+        <a href="#" class="readmore">Read more</a> </li>
+      <li> <a href="#"><img src="images/baby-smiling.gif" alt=""></a>
+        <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+        <a href="#" class="readmore">Read more</a> </li>
+    </ul>
+  </div>
+  <p class="footnote">Copyright &copy; 2012 <a href="#">School Name</a> All rights reserved | Website Template By <a target="_blank" href="http://www.freewebsitetemplates.com/">freewebsitetemplates.com</a></p>
+</div>
+</body>
+</html>
