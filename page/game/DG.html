@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo Game Him Lam Campus</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!--Block Coppy-->
+	<style>
+		body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+		}
+		</style><script type=”text/JavaScript”>
+		function killCopy(e){
+		return false
+		}
+		function reEnable(){
+		return true
+		}
+		document.onselectstart=new Function (“return false”)
+		if (window.sidebar){
+		document.onmousedown=killCopy
+		document.onclick=reEnable
+		}
+	</script>
+	<script language="JavaScript">
+    window.onload = function() {
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+        document.addEventListener("keydown", function(e) {
+            //document.onkeydown = function(e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+                disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+                disabledEvent(e);
+            }
+        }, false);
+ 
+        function disabledEvent(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            } else if (window.event) {
+                window.event.cancelBubble = true;
+            }
+            e.preventDefault();
+            return false;
+        }
+    };
+</script>
+    <!-- Custom CSS -->
+    <style>
+        .mt-4, .my-4
+        {
+            margin-top:auto !important;
+        }
+        .mt-5, .my-5
+        {
+            margin-top:auto !important; 
+        }
+        .image-cell {
+            width: 150px;
+            height: 150px;
+            border: 1px solid #ccc;
+            margin: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .selected {
+            border: 8px solid #092d53;
+            border-radius: 0.25rem;
+            text-align: center;
+        }
+        *, ::after, ::before
+        {
+            box-sizing: unset;
+        }
+        .img-fluid
+        {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out; /* Transition for hover effect */
+        }
+        .floating-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1); /* Increase size slightly */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!--<div class="col text-center">
+            <h1>Him Lam Campus</h1>
+        </div>-->
+    </div>
+    <div class="row mt-4">
+        <div class="col text-center">
+            <button class="btn btn-outline-primary floating-button" onclick="generateImages()">GO</button>
+        </div>
+    </div>
+    <div class="row mt-4" id="bingoBoard">
+        <!-- Bingo Board will be generated here -->
+    </div>
+</div>
+
+<!-- Custom JS -->
+<script>
+    const images = [
+        'image1.jpg',
+        'image2.jpg',
+        'image3.jpg',
+        'image4.jpg',
+        'image5.jpg',
+        'image7.jpg',
+        'image8.jpg',
+        'image9.jpg',
+        'image10.jpg',
+        'image11.jpg',
+        'image12.jpg',
+        'image13.jpg',
+        'image14.jpg',
+        'image15.jpg',
+        'image16.jpg',
+        'image16.jpg'
+    ];
+
+    function generateImages() {
+        let shuffledImages = shuffleArray(images);
+        let bingoBoard = document.getElementById('bingoBoard');
+        bingoBoard.innerHTML = '';
+
+        shuffledImages.forEach(image => {
+            let cell = document.createElement('div');
+            cell.classList.add('col-md-2', 'image-cell');
+            let imgElement = document.createElement('img');
+            imgElement.src = image;
+            imgElement.classList.add('img-fluid');
+            cell.appendChild(imgElement);
+            cell.onclick = function() {
+                toggleSelected(cell);
+            };
+            bingoBoard.appendChild(cell);
+        });
+    }
+
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    function toggleSelected(cell) {
+        if (cell.classList.contains('selected')) {
+            cell.classList.remove('selected');
+        } else {
+            cell.classList.add('selected');
+        }
+    }
+</script>
+</body>
+</html>
