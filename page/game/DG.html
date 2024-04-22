@@ -132,7 +132,7 @@
 <div class="container mt-5">
     <div class="row mt-4">
         <div class="col text-center">
-            <button id="myButton" class="btn btn-outline-primary floating-button" onclick="generateImages()">GO</button>
+            <button class="btn btn-outline-primary floating-button" onclick="generateImages()">GO</button>
         </div>
     </div>
     <div class="row mt-4" id="bingoBoard">
@@ -162,9 +162,6 @@
     ];
 
     function generateImages() {
-        // Vô hiệu hóa nút
-        var button = document.getElementById('myButton');
-        // Tạo ramdom
         let shuffledImages = shuffleArray(images);
         let bingoBoard = document.getElementById('bingoBoard');
         bingoBoard.innerHTML = '';
@@ -181,8 +178,6 @@
             };
             bingoBoard.appendChild(cell);
         });
-        // Vô hiệu hóa nút
-        button.disabled = true;
     }
 
     function shuffleArray(array) {
