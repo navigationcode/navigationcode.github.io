@@ -174,9 +174,16 @@
             cell.appendChild(imgElement);
             cell.onclick = function() {
                 toggleSelected(cell);
+                //sound
+        var clickSound = new Audio("2.mp3");
+		clickSound.play();
+        //end sound
             };
             bingoBoard.appendChild(cell);
         });
+        //sound
+        var clickSound = new Audio("3.mp3");
+		clickSound.play();
     }
 
     function shuffleArray(array) {
