@@ -169,13 +169,13 @@
 		const sounds = ["0.mp3", "sound/kl/chloe.mp3", "sound/kl/chloe.mp3"];
 		const audio = document.getElementById("sound0");
 
-		let delay = 1000; // Delay 1 giây giữa các âm thanh
+		let delay = 200; // Delay 1 giây giữa các âm thanh
 		sounds.forEach(sound => {
 			setTimeout(() => {
 			audio.src = sound;
 			audio.play();
 			}, delay);
-			delay += 2000;
+			delay += 1000;
 		});
 		}
 	</script>
@@ -185,13 +185,13 @@
 	const sounds = ["0.mp3", "sound/kl/ben.mp3", "sound/kl/ben.mp3"];
 	const audio = document.getElementById("sound0");
 
-	let delay = 1000; // Delay 1 giây giữa các âm thanh
+	let delay = 200; // Delay 1 giây giữa các âm thanh
 	sounds.forEach(sound => {
 		setTimeout(() => {
 		audio.src = sound;
 		audio.play();
 		}, delay);
-		delay += 2000;
+		delay += 1000;
 	});
 	}
 </script>
