@@ -1,0 +1,235 @@
+<!-- saved from url=(0022)https://qrco.de/bd1SZF -->
+<html lang="en">
+<head>
+	<title>ĐÓN BÉ HL | TRƯỜNG MẦM NON QUỐC TẾ KINDYCITY</title>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=no, maximum-scale=1.0, shrink-to-fit=no'>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="image/icon/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<!--Block Copy-->
+	<style>
+		body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+		}
+		div.gallery {
+		border: 1px solid #ccc;
+		}
+
+		div.gallery:hover {
+		border: 1px solid #777;
+		}
+
+		div.gallery img {
+		width: 100%;
+		height: auto;
+		}
+
+		div.desc {
+		padding: 15px;
+		text-align: center;
+		}
+
+		* {
+		box-sizing: border-box;
+		}
+
+		.responsive {
+		padding: 0 6px;
+		float: left;
+		width: 24.99999%;
+		}
+
+		@media only screen and (max-width: 700px) {
+		.responsive {
+			width: 49.99999%;
+			margin: 6px 0;
+		}
+		}
+
+		@media only screen and (max-width: 500px) {
+		.responsive {
+			width: 100%;
+		}
+		}
+
+		.clearfix:after {
+		content: "";
+		display: table;
+		clear: both;
+		}
+		</style>
+	<script type=”text/JavaScript”>
+		function killCopy(e){
+		return false
+		}
+		function reEnable(){
+		return true
+		}
+		document.onselectstart=new Function (“return false”)
+		if (window.sidebar){
+		document.onmousedown=killCopy
+		document.onclick=reEnable
+		}
+	</script>
+	<script language="JavaScript">
+    window.onload = function() {
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+        document.addEventListener("keydown", function(e) {
+            //document.onkeydown = function(e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+                disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+                disabledEvent(e);
+            }
+        }, false);
+ 
+        function disabledEvent(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            } else if (window.event) {
+                window.event.cancelBubble = true;
+            }
+            e.preventDefault();
+            return false;
+        }
+    };
+</script>
+</head>
+<body>
+	<div class="row">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<a class="navbar-brand" href="#">KINDYCITY</a>
+			  </div>
+			  <ul class="nav navbar-nav">
+				<li class="active"><a onclick="openCity(event, 'koala')">KOALA</a></li>
+				<li><a onclick="openCity(event, 'panda')">PANDA</a></li>
+				<li><a href="#">DOLPHIN</a></li>
+				<li><a href="#">GIRAFFE</a></li>
+			  </ul>
+			</div>
+		  </nav>
+		</div>
+	<div class="container">
+		
+		<div class="responsive">
+
+			<div id="koala" class="city">
+				<img src="image/1.jpg" alt="Cinque Terre" style="width: 80%; height: auto" onclick="playClickSound()">
+				<p>PHẠM NHẬT ANH</p>
+
+				<img src="image/2.jpg" alt="Cinque Terre" style="width: 80%; height: auto" onclick="playClickSound1()">
+				<p>NGUYỄN TRỌNG NHÂN</p>
+			</div>
+
+			<div id="panda" class="city" style="display:none">
+				<img src="image/3.jpg" alt="Cinque Terre" style="width: 80%; height: auto" onclick="playClickSound2()">
+				<p>NGUYỄN ĐOÀN HỮU PHƯỚC</p>
+			</div>
+		</div>
+	</div>
+
+<!--source Audio-->
+<audio id="sound0" src="0.mp3"></audio>
+<audio id="sound0" src="sound/kl/ben.mp3"></audio>
+<audio id="sound0" src="sound/kl/chloe.mp3"></audio>
+<audio id="sound0" src="sound/pd/phuoc.mp3"></audio>
+
+	<!--KIDS KOLA-->
+	<script>
+		function playClickSound() {
+		const sounds = ["0.mp3", "sound/kl/chloe.mp3", "sound/kl/chloe.mp3"];
+		const audio = document.getElementById("sound0");
+
+		let delay = 1000; // Delay 1 giây giữa các âm thanh
+		sounds.forEach(sound => {
+			setTimeout(() => {
+			audio.src = sound;
+			audio.play();
+			}, delay);
+			delay += 1000;
+		});
+		}
+	</script>
+
+<script>
+	function playClickSound1() {
+	const sounds = ["0.mp3", "sound/kl/ben.mp3", "sound/kl/ben.mp3"];
+	const audio = document.getElementById("sound0");
+
+	let delay = 1000; // Delay 1 giây giữa các âm thanh
+	sounds.forEach(sound => {
+		setTimeout(() => {
+		audio.src = sound;
+		audio.play();
+		}, delay);
+		delay += 1000;
+	});
+	}
+</script>
+
+<script>
+	function playClickSound2() {
+	const sounds = ["0.mp3", "sound/pd/phuoc.mp3", "sound/pd/phuoc.mp3"];
+	const audio = document.getElementById("sound0");
+
+	let delay = 1000; // Delay 1 giây giữa các âm thanh
+	sounds.forEach(sound => {
+		setTimeout(() => {
+		audio.src = sound;
+		audio.play();
+		}, delay);
+		delay += 1000;
+	});
+	}
+</script>
+
+	<!--tab div-->
+	<script>
+		function openCity(evt, cityName) {
+		var i, x, tablinks;
+		x = document.getElementsByClassName("city");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablink");   
+
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";   
+
+		}
+	</script>
+
+</body>
+</html>
