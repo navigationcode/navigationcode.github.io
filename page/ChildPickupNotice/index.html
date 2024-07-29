@@ -63,7 +63,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <div class="w3-top">
   <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-    <!--<div class="w3-right w3-padding-16"><image src="images/icon/search.svg" style="width: 20%;"></image></div>-->
     <div class="w3-center w3-padding-16">
     <input type="text" id="searchInput" placeholder="Find the baby's name...">
     <button onclick="searchContent()" class="btn btn-dark">Search</button>
@@ -77,28 +76,113 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <!-- KOALA-->
   <div class="w3-row-padding w3-padding-16 w3-center city" id="koala">
     <div class="w3-quarter">
-      <img src="images/1.kl/1.jpg" onclick="playClickSound()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
-      <h3>CHLOE</h3>
-      <p>PHẠM NHẬT ANH</p>
+      <img src="images/1.kl/ben.jpg" onclick="playClickSound()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>BEN</h3>
+      <p>TRỌNG NHÂN</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/1.kl/2.jpg" onclick="playClickSound1()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
-      <h3>BEN</h3>
-      <p>NGUYỄN TRỌNG NHÂN</p>
+      <img src="images/1.kl/chloe.jpg" onclick="playClickSound1()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>CHLOE</h3>
+      <p>NHẬT ANH</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/1.kl/danh.jpg" onclick="playClickSound2()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>ANH</h3>
+      <p>DUY ANH</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/1.kl/lincoln.jpg" onclick="playClickSound3()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>LINCOLN</h3>
+      <p>HỒNG LĨNH</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/1.kl/su.jpg" onclick="playClickSound4()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>SU KEM</h3>
+      <p>UYÊN NHI</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/1.kl/zit.jpg" onclick="playClickSound5()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>ZỊT</h3>
+      <p>MINH THƯ</p>
     </div>
   </div>
   
   <!-- PANDA-->
   <div class="w3-row-padding w3-padding-16 w3-center city" style="display: none;" id="panda">
     <div class="w3-quarter">
-      <img src="images/2.pd/phuoc.jpg" onclick="playClickSound25()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
-      <h3>PHƯỚC</h3>
-      <p>NGUYỄN ĐOÀN HỮU PHƯỚC</p>
+      <img src="images/2.pd/bap.jpg" onclick="playClickSound25()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>BẮP</h3>
+      <p>ĐĂNG NHẬT</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/xoai.jpg" onclick="playClickSound26()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/ben.jpg" onclick="playClickSound26()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>BEN</h3>
+      <p>NHẬT QUANG</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/cari.jpg" onclick="playClickSound27()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>CARI</h3>
+      <p>PHÚC ĐẠT</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/dan.jpg" onclick="playClickSound28()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>MỸ DÂN</h3>
+      <p>TUỆ LÂM</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/haru.jpg" onclick="playClickSound29()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>HARU</h3>
+      <p>BÁ HIẾU</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/hung.jpg" onclick="playClickSound30()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>HÙNG</h3>
+      <p>MẠNH HÙNG</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/oscar.jpg" onclick="playClickSound31()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>OSCAR</h3>
+      <p>ANH QUÂN</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/phin.jpg" onclick="playClickSound32()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>PHIN</h3>
+      <p>THIÊN VŨ</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/phuoc.jpg" onclick="playClickSound33()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>PHƯỚC</h3>
+      <p>HỮU PHƯỚC</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/quy.jpg" onclick="playClickSound34()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>QUÝ</h3>
+      <p>LÊ QUÝ</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/quynh.jpg" onclick="playClickSound35()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>QUỲNH</h3>
+      <p>LÊ QUỲNH</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/rosei.jpg" onclick="playClickSound36()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>ROSEI</h3>
+      <p>GIA HÂN</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/sua.jpg" onclick="playClickSound37()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>SỮA</h3>
+      <p>TRANG THƯ</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/tom.jpg" onclick="playClickSound38()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <h3>TOM</h3>
+      <p>QUỐC VIỆT</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/2.pd/xoai.jpg" onclick="playClickSound39()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
       <h3>XOÀI</h3>
-      <p>NGUYỄN ĐÀO ANH KHÔI</p>
+      <p>ANH KHÔI</p>
     </div>
   </div>
 
@@ -120,7 +204,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <div class="w3-row-padding w3-padding-16 w3-center city" style="display: none;" id="giraffe">
     <div class="w3-quarter">
       <img src="images/4.grf/ben.jpg" onclick="playClickSound75()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
-      <h3>PHƯỚC</h3>
+      <h3>BEN</h3>
       <p>NGUYỄN HOÀNG TÙNG</p>
     </div>
     <div class="w3-quarter">
@@ -139,9 +223,27 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <!--source Audio KOALA-->
 <audio id="sound0" src="sound/1.kl/ben.mp3"></audio>
 <audio id="sound0" src="sound/1.kl/chloe.mp3"></audio>
+<audio id="sound0" src="sound/1.kl/danh.mp3"></audio>
+<audio id="sound0" src="sound/1.kl/lincoln.mp3"></audio>
+<audio id="sound0" src="sound/1.kl/sukem.mp3"></audio>
+<audio id="sound0" src="sound/1.kl/zit.mp3"></audio>
 <!--source Audio PANDA-->
-<audio id="sound0" src="sound/2.pd/khoi.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/bap.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/ben.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/cari.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/dan.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/haru.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/mhung.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/oscar.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/phin.mp3"></audio>
 <audio id="sound0" src="sound/2.pd/phuoc.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/quy.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/quynh.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/rosei.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/sua.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/tom.mp3"></audio>
+<audio id="sound0" src="sound/2.pd/xoai.mp3"></audio>
+
 <!--source Audio DOLPHIN-->
 <audio id="sound0" src="sound/3.dp/min.mp3"></audio>
 <audio id="sound0" src="sound/3.dp/quang.mp3"></audio>
@@ -152,136 +254,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 </div>
 
 <!--SCRIPT-->
-
-<!--KIDS KOLA-->
-<script>
-  function playClickSound() {
-  const sounds = ["sound/koala.mp3", "sound/1.kl/chloe.mp3"];
-  const audio = document.getElementById("sound0");
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
-
-<script>
-  function playClickSound1() {
-  const sounds = ["sound/koala.mp3", "sound/1.kl/ben.mp3"];
-  const audio = document.getElementById("sound0");
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
-
-<!--KIDS PANDA-->
-<script>
-  function playClickSound25() {
-  const sounds = ["sound/panda.mp3", "sound/2.pd/phuoc.mp3"];
-  const audio = document.getElementById("sound0");
-
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
-
-<script>
-  function playClickSound26() {
-  const sounds = ["sound/panda.mp3", "sound/2.pd/khoi.mp3"];
-  const audio = document.getElementById("sound0");
-
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
-
-<!--KIDS DOLPHIN-->
-<script>
-  function playClickSound50() {
-  const sounds = ["sound/dolphin.mp3", "sound/3.dp/quang.mp3"];
-  const audio = document.getElementById("sound0");
-
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
-
-<script>
-  function playClickSound51() {
-  const sounds = ["sound/dolphin.mp3", "sound//3.dp/min.mp3"];
-  const audio = document.getElementById("sound0");
-
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
-
-<!--KIDS GIRAFFE-->
-<script>
-  function playClickSound75() {
-  const sounds = ["sound/giraffe.mp3", "sound/4.gr/tung.mp3"];
-  const audio = document.getElementById("sound0");
-
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
-
-<script>
-  function playClickSound76() {
-  const sounds = ["sound/giraffe.mp3", "sound/4.gr/ngoc.mp3"];
-  const audio = document.getElementById("sound0");
-
-  let delay = 200; // Delay 1 giây giữa các âm thanh
-  sounds.forEach(sound => {
-    setTimeout(() => {
-    audio.src = sound;
-    audio.play();
-    }, delay);
-    delay += 2500;
-  });
-  }
-</script>
+<script src="js/koala.js"></script>
+<script src="js/panda.js"></script>
+<script src="js/dolphin.js"></script>
+<script src="js/giraffe.js"></script>
 
 <script src="js/scripts.js"></script>
 <!--Tìm Kiếm-->
