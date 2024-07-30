@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ĐÓN BÉ HL | TRƯỜNG MẦM NON QUỐC TẾ KINDYCITY</title>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=no, maximum-scale=1.0, shrink-to-fit=no'>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-32x32.png">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--Color tìm kiếm-->
+<style>
+  .highlight {
+      background-color: yellow;
+  }
+</style>
+
+<style>
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
+</head>
+<body>
+  <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+      <a onclick="openCity(event, 'koala');w3_close()" class="w3-bar-item w3-button">KOALA</a>
+      <a onclick="openCity(event, 'panda');w3_close()" class="w3-bar-item w3-button">PANDA</a>
+      <a onclick="openCity(event, 'dolphin');w3_close()" class="w3-bar-item w3-button">DOLPHIN</a>
+      <a onclick="openCity(event, 'giraffe');w3_close()" class="w3-bar-item w3-button">GIRAFFE</a>
+    </nav>
+    <!-- Top menu -->
+    <div class="w3-row-padding">
+      <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+          <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+          <div class="w3-center w3-padding-16">
+          <input type="text" id="searchInput" placeholder="Find the baby's name...">
+          <button onclick="searchContent()" class="btn btn-dark">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--KOALA-->
+<div class="container-fluid" style="padding-top: 8%;display: none;" id="koala">
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/1.kl/ben.jpg" onclick="playClickSound()" >
+       </a><div class="desc"><h2>BEN-TRỌNG NHÂN</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/1.kl/chloe.jpg" onclick="playClickSound1()" >
+       </a><div class="desc"><h2>CHLOE-NHẬT ANH</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/1.kl/danh.jpg" onclick="playClickSound2()" >
+       </a><div class="desc"><h2>ANH-DUY ANH</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/1.kl/lincoln.jpg" onclick="playClickSound3()" >
+       </a><div class="desc"><h2>LINCOLN-HỒNG LĨNH</h2></div></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/1.kl/su.jpg" onclick="playClickSound4()" >
+       </a><div class="desc"><h2>SU KEM-UYÊN NHI</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/1.kl/zit.jpg" onclick="playClickSound5()" >
+       </a><div class="desc"><h2>ZỊT-MINH THƯ</h2></div></div>
+      </div>
+</div>
+
+<!-- PANDA-->
+<div class="container-fluid" style="padding-top: 8%; display: none;" id="panda">
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/bap.jpg" onclick="playClickSound25()" >
+       </a><div class="desc"><h2>BẮP-ĐĂNG NHẬT</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/ben.jpg" onclick="playClickSound26()" >
+       </a><div class="desc"><h2>BEN-NHẬT QUANG</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/cari.jpg" onclick="playClickSound27()" >
+       </a><div class="desc"><h2>CARI-PHÚC ĐẠT</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/dan.jpg" onclick="playClickSound28()" >
+       </a><div class="desc"><h2>MỸ DÂN-TUỆ LÂM</h2></div></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/haru.jpg" onclick="playClickSound29()" >
+       </a><div class="desc"><h2>HARU-BÁ HIẾU</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/hung.jpg" onclick="playClickSound30()" >
+       </a><div class="desc"><h2>HÙNG-MẠNH HÙNG</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/oscar.jpg" onclick="playClickSound31()" >
+       </a><div class="desc"><h2>OSCAR-ANH QUÂN</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/phin.jpg" onclick="playClickSound32()" >
+       </a><div class="desc"><h2>PHIN-THIÊN VŨ</h2></div></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/phuoc.jpg" onclick="playClickSound33()" >
+       </a><div class="desc"><h2>PHƯỚC-HỮU PHƯỚC</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/quy.jpg" onclick="playClickSound34()" >
+       </a><div class="desc"><h2>QUÝ-LÊ QUÝ</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/quynh.jpg" onclick="playClickSound35()" >
+       </a><div class="desc"><h2>QUỲNH-LÊ QUỲNH</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/rosei.jpg" onclick="playClickSound36()" >
+       </a><div class="desc"><h2>ROSEI-GIA HÂN</h2></div></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/sua.jpg" onclick="playClickSound37()" >
+       </a><div class="desc"><h2>SỮA-TRANG THƯ</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/tom.jpg" onclick="playClickSound38()" >
+       </a><div class="desc"><h2>TOM-QUỐC VIỆT</h2></div></div>
+    </div>
+    <div class="responsive">
+    <div class="gallery"><a>
+      <img src="images/2.pd/xoai.jpg" onclick="playClickSound39()" >
+       </a><div class="desc"><h2>XOÀI-ANH KHÔI</h2></div></div>
+    </div>
+</div>
+
+<!--import Audio-->
+<audio id="sound0" src="sound/*.mp3"></audio>
+<!--SCRIPT-->
+<script src="js/koala.js"></script>
+<script src="js/panda.js"></script>
+<script src="js/dolphin.js"></script>
+<script src="js/giraffe.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

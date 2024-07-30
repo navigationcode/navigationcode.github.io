@@ -18,33 +18,11 @@
   .highlight {
       background-color: yellow;
   }
-</style>
-<style>
-  .circle {
-      background-color: rgb(124, 124, 172);
-      position: relative;
-      cursor: pointer;
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-
-  .animate {
-      animation: pulse 1s infinite;
-  }
-
-  @keyframes pulse {
-      0% {
-          transform: scale(1);
-      }
-      50% {
-          transform: scale(1.2);
-      }
-      100% {
-          transform: scale(1);
-      }
-  }
-</style>
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-.w3-bar-block .w3-bar-item {padding:20px}
 </style>
 </head>
 <body>
@@ -60,8 +38,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 </nav>
 
 <!-- Top menu -->
-<div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+<div class="w3-top ">
+  <div class="top-round-rainbow w3-white w3-xlarge" style="max-width:1200px;margin:auto">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
     <div class="w3-center w3-padding-16">
     <input type="text" id="searchInput" placeholder="Find the baby's name...">
@@ -71,37 +49,38 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 </div>
 
 <!-- !PAGE CONTENT! -->
-<div id="content" class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+<div id="content" class=" w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
   <!-- KOALA-->
   <div class="w3-row-padding w3-padding-16 w3-center city" id="koala">
     <div class="w3-quarter">
-      <img src="images/1.kl/ben.jpg" onclick="playClickSound()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/1.kl/ben.jpg" onclick="playClickSound()" class="gallery">
       <h3>BEN</h3>
       <p>TRỌNG NHÂN</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/1.kl/chloe.jpg" onclick="playClickSound1()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/1.kl/chloe.jpg" onclick="playClickSound1()" class="gallery">
       <h3>CHLOE</h3>
       <p>NHẬT ANH</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/1.kl/danh.jpg" onclick="playClickSound2()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/1.kl/danh.jpg" onclick="playClickSound2()" class="gallery">
       <h3>ANH</h3>
       <p>DUY ANH</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/1.kl/lincoln.jpg" onclick="playClickSound3()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/1.kl/lincoln.jpg" onclick="playClickSound3()" class="gallery">
       <h3>LINCOLN</h3>
       <p>HỒNG LĨNH</p>
     </div>
+    <div class="clearfix"></div><!--chống nhảy khỏi table-->
     <div class="w3-quarter">
-      <img src="images/1.kl/su.jpg" onclick="playClickSound4()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/1.kl/su.jpg" onclick="playClickSound4()" class="gallery">
       <h3>SU KEM</h3>
       <p>UYÊN NHI</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/1.kl/zit.jpg" onclick="playClickSound5()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/1.kl/zit.jpg" onclick="playClickSound5()" class="gallery">
       <h3>ZỊT</h3>
       <p>MINH THƯ</p>
     </div>
@@ -110,77 +89,80 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <!-- PANDA-->
   <div class="w3-row-padding w3-padding-16 w3-center city" style="display: none;" id="panda">
     <div class="w3-quarter">
-      <img src="images/2.pd/bap.jpg" onclick="playClickSound25()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/bap.jpg" onclick="playClickSound25()" class="gallery">
       <h3>BẮP</h3>
       <p>ĐĂNG NHẬT</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/ben.jpg" onclick="playClickSound26()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/ben.jpg" onclick="playClickSound26()" class="gallery">
       <h3>BEN</h3>
       <p>NHẬT QUANG</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/cari.jpg" onclick="playClickSound27()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/cari.jpg" onclick="playClickSound27()" class="gallery">
       <h3>CARI</h3>
       <p>PHÚC ĐẠT</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/dan.jpg" onclick="playClickSound28()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/dan.jpg" onclick="playClickSound28()" class="gallery">
       <h3>MỸ DÂN</h3>
       <p>TUỆ LÂM</p>
     </div>
+    <div class="clearfix"></div>
     <div class="w3-quarter">
-      <img src="images/2.pd/haru.jpg" onclick="playClickSound29()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/haru.jpg" onclick="playClickSound29()" class="gallery">
       <h3>HARU</h3>
       <p>BÁ HIẾU</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/hung.jpg" onclick="playClickSound30()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/hung.jpg" onclick="playClickSound30()" class="gallery">
       <h3>HÙNG</h3>
       <p>MẠNH HÙNG</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/oscar.jpg" onclick="playClickSound31()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/oscar.jpg" onclick="playClickSound31()" class="gallery">
       <h3>OSCAR</h3>
       <p>ANH QUÂN</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/phin.jpg" onclick="playClickSound32()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/phin.jpg" onclick="playClickSound32()" class="gallery">
       <h3>PHIN</h3>
       <p>THIÊN VŨ</p>
     </div>
+    <div class="clearfix"></div>
     <div class="w3-quarter">
-      <img src="images/2.pd/phuoc.jpg" onclick="playClickSound33()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/phuoc.jpg" onclick="playClickSound33()" class="gallery">
       <h3>PHƯỚC</h3>
       <p>HỮU PHƯỚC</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/quy.jpg" onclick="playClickSound34()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/quy.jpg" onclick="playClickSound34()" class="gallery">
       <h3>QUÝ</h3>
       <p>LÊ QUÝ</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/quynh.jpg" onclick="playClickSound35()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/quynh.jpg" onclick="playClickSound35()" class="gallery">
       <h3>QUỲNH</h3>
       <p>LÊ QUỲNH</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/rosei.jpg" onclick="playClickSound36()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/rosei.jpg" onclick="playClickSound36()" class="gallery">
       <h3>ROSEI</h3>
       <p>GIA HÂN</p>
     </div>
+    <div class="clearfix"></div>
     <div class="w3-quarter">
-      <img src="images/2.pd/sua.jpg" onclick="playClickSound37()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/sua.jpg" onclick="playClickSound37()" class="gallery">
       <h3>SỮA</h3>
       <p>TRANG THƯ</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/tom.jpg" onclick="playClickSound38()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/tom.jpg" onclick="playClickSound38()" class="gallery">
       <h3>TOM</h3>
       <p>QUỐC VIỆT</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/2.pd/xoai.jpg" onclick="playClickSound39()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/2.pd/xoai.jpg" onclick="playClickSound39()" class="gallery">
       <h3>XOÀI</h3>
       <p>ANH KHÔI</p>
     </div>
@@ -189,26 +171,26 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <!-- DOLPHIN-->
   <div class="w3-row-padding w3-padding-16 w3-center city" style="display: none;" id="dolphin">
     <div class="w3-quarter">
-      <img src="images/3.dp/mang.jpg" onclick="playClickSound50()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/3.dp/mang.jpg" onclick="playClickSound50()" class="gallery">
       <h3>MĂNG</h3>
       <p>LÊ TẤN MINH QUANG</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/3.dp/min.jpg" onclick="playClickSound51()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/3.dp/min.jpg" onclick="playClickSound51()" class="gallery">
       <h3>MIN</h3>
       <p>NGUYỄN CHELSEA</p>
     </div>
   </div>
 
   <!-- GIRAFFE-->
-  <div class="w3-row-padding w3-padding-16 w3-center city" style="display: none;" id="giraffe">
+  <div class=" w3-row-padding w3-padding-16 w3-center city" style="display: none;" id="giraffe">
     <div class="w3-quarter">
-      <img src="images/4.grf/ben.jpg" onclick="playClickSound75()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/4.grf/ben.jpg" onclick="playClickSound75()" class="gallery">
       <h3>BEN</h3>
       <p>NGUYỄN HOÀNG TÙNG</p>
     </div>
     <div class="w3-quarter">
-      <img src="images/4.grf/ngoc.jpg" onclick="playClickSound76()" style="width:100%;border: 2px solid #babb8d;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)">
+      <img src="images/4.grf/ngoc.jpg" onclick="playClickSound76()" class="gallery">
       <h3>NGỌC</h3>
       <p>NGUYỄN BẢO NGỌC</p>
     </div>
@@ -216,101 +198,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
 <!-- End page content -->
 <!--import Audio-->
-<audio id="sound0" src="sound/koala.mp3"></audio>
-<audio id="sound0" src="sound/panda.mp3"></audio>
-<audio id="sound0" src="sound/dolphin.mp3"></audio>
-<audio id="sound0" src="sound/giraffe.mp3"></audio>
-<!--source Audio KOALA-->
-<audio id="sound0" src="sound/1.kl/ben.mp3"></audio>
-<audio id="sound0" src="sound/1.kl/chloe.mp3"></audio>
-<audio id="sound0" src="sound/1.kl/danh.mp3"></audio>
-<audio id="sound0" src="sound/1.kl/lincoln.mp3"></audio>
-<audio id="sound0" src="sound/1.kl/sukem.mp3"></audio>
-<audio id="sound0" src="sound/1.kl/zit.mp3"></audio>
-<!--source Audio PANDA-->
-<audio id="sound0" src="sound/2.pd/bap.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/ben.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/cari.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/dan.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/haru.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/mhung.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/oscar.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/phin.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/phuoc.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/quy.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/quynh.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/rosei.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/sua.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/tom.mp3"></audio>
-<audio id="sound0" src="sound/2.pd/xoai.mp3"></audio>
-
-<!--source Audio DOLPHIN-->
-<audio id="sound0" src="sound/3.dp/min.mp3"></audio>
-<audio id="sound0" src="sound/3.dp/quang.mp3"></audio>
-<!--source Audio GIRAFFE-->
-<audio id="sound0" src="sound/4.gr/ngoc.mp3"></audio>
-<audio id="sound0" src="sound/4.gr/tung.mp3"></audio>
-
+<audio id="sound0" src="sound/"></audio>
 </div>
 
-<!--SCRIPT-->
+<!--SCRIPT Sound library-->
 <script src="js/koala.js"></script>
 <script src="js/panda.js"></script>
 <script src="js/dolphin.js"></script>
 <script src="js/giraffe.js"></script>
 
 <script src="js/scripts.js"></script>
-<!--Tìm Kiếm-->
-<script>
-  function searchContent() {
-      // Lấy giá trị từ ô tìm kiếm
-      const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-      // Lấy tất cả các đoạn văn
-      const paragraphs = document.querySelectorAll('#content h3');
-      
-      // Xóa bỏ các đánh dấu trước đó
-      paragraphs.forEach(paragraph => {
-          paragraph.innerHTML = paragraph.textContent;
-      });
-
-      // Tìm kiếm và đánh dấu từ khóa
-      paragraphs.forEach(paragraph => {
-          const text = paragraph.textContent.toLowerCase();
-          if (text.includes(searchTerm)) {
-              const regex = new RegExp(`(${searchTerm})`, 'gi');
-              paragraph.innerHTML = paragraph.innerHTML.replace(regex, '<span class="highlight">$1</span>');
-          }
-      });
-  }
-</script>
-<script>
-  // div
-  function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");   
-
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";   
-
-  }
-</script>
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
 
 </body>
 </html>
