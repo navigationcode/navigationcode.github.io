@@ -220,7 +220,7 @@ delay += 2500;
 });
 }
 
-function playClickSound165() {
+function playClickSound166() {
 const sounds = ["sound/giraffe.mp3", "sound/4.gr/zuta.mp3"];
 const audio = document.getElementById("sound0");
 

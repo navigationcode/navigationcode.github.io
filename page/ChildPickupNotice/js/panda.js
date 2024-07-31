@@ -125,7 +125,7 @@ delay += 2500;
 });
 }
 
-function playClickSound58() {
+function playClickSound59() {
 const sounds = ["sound/panda.mp3", "sound/2.pd/quy.mp3"];
 const audio = document.getElementById("sound0");
 
