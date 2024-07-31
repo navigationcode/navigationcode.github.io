@@ -9,7 +9,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -22,7 +22,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -35,7 +35,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -48,7 +48,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -61,7 +61,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -74,7 +74,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -87,7 +87,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -100,7 +100,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -113,7 +113,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -126,7 +126,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
 
@@ -139,7 +139,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 2500;
+delay += 4000;
 });
 }
             
