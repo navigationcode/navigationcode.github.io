@@ -51,7 +51,6 @@ input[type="text"] {
     border: 1px solid #060533;
   }
 
-
 .top-round-rainbow {
 background: white;
 border-radius: 4px;
@@ -68,3 +67,4 @@ background-image: repeating-linear-gradient(to right,
 background-size: 100% 10px;
 background-repeat:no-repeat;
 }
+
