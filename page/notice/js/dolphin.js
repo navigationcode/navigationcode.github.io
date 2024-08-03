@@ -8,7 +8,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -22,7 +22,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound102() {
@@ -35,7 +35,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound103() {
@@ -48,7 +48,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound104() {
@@ -61,7 +61,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound105() {
@@ -74,7 +74,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound106() {
@@ -87,7 +87,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound107() {
@@ -100,7 +100,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound108() {
@@ -113,7 +113,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 function playClickSound109() {
@@ -126,7 +126,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -140,7 +140,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   
@@ -154,7 +154,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound112() {
@@ -167,7 +167,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound113() {
@@ -180,7 +180,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound114() {
@@ -193,7 +193,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound115() {
@@ -206,7 +206,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound116() {
@@ -219,7 +219,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound117() {
@@ -232,7 +232,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound118() {
@@ -245,7 +245,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
   function playClickSound119() {
@@ -258,7 +258,7 @@ function playClickSound110() {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
   });
   }
 
@@ -272,7 +272,7 @@ function playClickSound110() {
     audio.src = sound;
     audio.play();
     }, delay);
-    delay += 4000;
+    delay += 3000;
     });
     }
     function playClickSound121() {
@@ -285,7 +285,7 @@ function playClickSound110() {
     audio.src = sound;
     audio.play();
     }, delay);
-    delay += 4000;
+    delay += 3000;
     });
     }
     function playClickSound122() {
@@ -298,7 +298,7 @@ function playClickSound110() {
     audio.src = sound;
     audio.play();
     }, delay);
-    delay += 4000;
+    delay += 3000;
     });
     }
 
@@ -312,6 +312,6 @@ function playClickSound110() {
       audio.src = sound;
       audio.play();
       }, delay);
-      delay += 4000;
+      delay += 3000;
       });
       }

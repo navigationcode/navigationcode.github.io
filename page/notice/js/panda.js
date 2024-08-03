@@ -9,7 +9,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -23,7 +23,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -37,7 +37,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -51,7 +51,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -65,7 +65,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -79,7 +79,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -93,7 +93,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -107,7 +107,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -121,7 +121,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -135,7 +135,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -149,7 +149,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -163,7 +163,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -177,7 +177,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -191,7 +191,7 @@ setTimeout(() => {
 audio.src = sound;
 audio.play();
 }, delay);
-delay += 4000;
+delay += 3000;
 });
 }
 
@@ -205,7 +205,7 @@ sounds.forEach(sound => {
   audio.src = sound;
   audio.play();
   }, delay);
-  delay += 4000;
+  delay += 3000;
 });
 }
 
@@ -219,6 +219,6 @@ function playClickSound65() {
     audio.src = sound;
     audio.play();
     }, delay);
-    delay += 4000;
+    delay += 3000;
   });
   }
