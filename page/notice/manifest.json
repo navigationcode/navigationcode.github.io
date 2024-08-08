@@ -1,0 +1,23 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Kindycity",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Him Lam",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/icon/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "images/icon/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ]
+}
