@@ -109,7 +109,7 @@ delay += 2500;
 }
 
 function playClickSound158() {
-const sounds = ["sound/giraffe.mp3", "sound/4.gr/nam.mp3"];
+    const sounds = ["sound/giraffe.mp3", "sound/4.gr/nam.mp3"];
 const audio = document.getElementById("sound0");
 
 let delay = 200; // Delay 1 giây giữa các âm thanh
