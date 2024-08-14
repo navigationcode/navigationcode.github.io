@@ -2,6 +2,7 @@
 
 function playClickSound() {
 const sounds = ["sound/koala.mp3", "sound/1.kl/ben.mp3"];
+
 const audio = document.getElementById("sound0");
 let delay = 200;
 sounds.forEach(sound => {
