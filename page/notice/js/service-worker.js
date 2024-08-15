@@ -3,9 +3,10 @@ const CACHE_NAME = 'offline-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/styles.css',
-  '/script.js',
-  '/image.jpg'
+  '/css/*.css',
+  '/js/*.js',
+  '/images/*.jpg',
+  '/sound/*.mp3'
 ];
 
 // Cài đặt service worker và lưu cache các tệp
