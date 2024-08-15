@@ -1,4 +1,4 @@
-    function searchContent() {
+  function searchContent() {
       // Lấy giá trị từ ô tìm kiếm
       const searchTerm = document.getElementById('searchInput').value.toLowerCase();
       // Lấy tất cả các đoạn văn
