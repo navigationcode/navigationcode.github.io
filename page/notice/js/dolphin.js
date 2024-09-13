@@ -302,8 +302,21 @@ function playClickSound110() {
     });
     }
 
-    function playClickSound123() {
-      const sounds = ["sound/dolphin.mp3", "sound/3.dp/fam.mp3", "sound/3.dp/fam.mp3"];
+  function playClickSound123() {
+    const sounds = ["sound/dolphin.mp3", "sound/3.dp/fam.mp3", "sound/3.dp/fam.mp3"];
+    const audio = document.getElementById("sound0");
+    
+    let delay = 200;
+    sounds.forEach(sound => {
+    setTimeout(() => {
+    audio.src = sound;
+    audio.play();
+    }, delay);
+    delay += 2500;
+    });
+    }
+    function playClickSound124() {
+      const sounds = ["sound/dolphin.mp3", "sound/3.dp/sudo.mp3", "sound/3.dp/sudo.mp3"];
       const audio = document.getElementById("sound0");
       
       let delay = 200;
@@ -315,3 +328,16 @@ function playClickSound110() {
       delay += 2500;
       });
       }
+      function playClickSound125() {
+        const sounds = ["sound/dolphin.mp3", "sound/3.dp/vani.mp3", "sound/3.dp/vani.mp3"];
+        const audio = document.getElementById("sound0");
+        
+        let delay = 200;
+        sounds.forEach(sound => {
+        setTimeout(() => {
+        audio.src = sound;
+        audio.play();
+        }, delay);
+        delay += 2500;
+        });
+        }
