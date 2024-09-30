@@ -341,3 +341,16 @@ function playClickSound110() {
         delay += 2500;
         });
         }
+        function playClickSound126() {
+          const sounds = ["sound/dolphin.mp3", "sound/3.dp/migo.mp3", "sound/3.dp/migo.mp3"];
+          const audio = document.getElementById("sound0");
+          
+          let delay = 200;
+          sounds.forEach(sound => {
+          setTimeout(() => {
+          audio.src = sound;
+          audio.play();
+          }, delay);
+          delay += 2500;
+          });
+          }
